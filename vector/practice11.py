@@ -11,7 +11,7 @@
 # 我们做100种平移，得到100组向量集合
 # 然后对100组向量集合作图
 
-from vector_drawing import Polygon, draw
+from vector_drawing import Polygon, draw, blue
 
 from practice8 import translate
 
