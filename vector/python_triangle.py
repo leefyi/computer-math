@@ -18,10 +18,12 @@ print(r)
 r2 = tan(pi/4)
 print(r2)
 
+
 # 极坐标转换为笛卡尔坐标
 def to_cartesian(polar_vector):
     length, angle = polar_vector[0], polar_vector[1]
     return cos(angle)*length, sin(angle)*length
+
 
 ag1 = 37*pi/180
 
@@ -36,7 +38,7 @@ print(tan((11/90)*pi))
 
 y1 = sin((37/180)*pi)*15
 x1 = cos((37/180)*pi)*15
-print(x1,y1)
+print(x1, y1)
 
 
 d2=8.5
@@ -55,6 +57,7 @@ k = atan2(-1,-5)
 print(k)
 rk = 2*pi + k
 print(rk)
+
 
 def to_polar(vector):
     x, y = vector[1], vector[0]
