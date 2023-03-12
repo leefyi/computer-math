@@ -11,6 +11,7 @@
 from math import pi
 from python_triangle import to_cartesian
 
+
 def regular_polygon(n: int):
     d = 1
     vcs = []
